@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #eee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    background-color: hsl(118, 70%, 45%);
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-    background: white;
+    background: rgb(196, 241, 209);
     border: 1px solid #ccc;
     padding: 15px;
     width: 200px;
@@ -39,7 +39,7 @@ body {
     margin: 5px 0 15px 0;
 }
 
-.card button {
+button {
     background-color: #28a745;
     color: white;
     border: none;
@@ -49,6 +49,14 @@ body {
     cursor: pointer;
 }
 
-.card button:hover {
+button:hover {
     background-color: #218838;
+}
+
+.card:hover {
+    transform: scale(1.30);
+}
+
+h1 {
+    color: #034e25;
 }
